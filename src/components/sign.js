@@ -34,7 +34,7 @@ const SignaturePad = () => {
           <SignatureCanvas
             ref={signatureRef}
             penColor={penColor}
-            canvasProps={{ height: 200, className: 'border signature-canvas' }}
+            canvasProps={{ height: 400, className: 'border signature-canvas' }}
             velocityFilterWeight={0.2}
             minWidth={penThickness}
           />
