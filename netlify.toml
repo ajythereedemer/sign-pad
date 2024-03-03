@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[context.production.environment]
+  # Add production environment variables here
+
+[context.deploy-preview.environment]
+  # Add deploy-preview environment variables here
+
+[context.branch-deploy.environment]
+  # Add branch-deploy environment variables here
